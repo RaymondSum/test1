@@ -16,15 +16,16 @@ enum MyEnum {
  * Custom blocks
  */
 //% weight=100 color=#0fbc11 icon=""
-namespace custom {
+namespace animations {
     /**
+     * Blink an LED 
      * TODO: describe your function here
      * @param n describe parameter here, eg: 5
      * @param s describe parameter here, eg: "Hello"
      * @param e describe parameter here
      */
-    //% block="do stuff with and $s and $e"
-    export function doStuff(n: number, s: string, e: MyEnum): void {
+    //% block="do stuff with $n and $s and $e"
+    export function blink(n: number, s: string, e: MyEnum): void {
         // Add code here
     }
 
