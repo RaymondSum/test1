@@ -19,7 +19,7 @@ enum MyEnum {
 //% weight=80 color=#0fbc11 icon=""
 namespace animations {
     /**
-     * Blink an LED 
+     * Blink an LED in (ms)
      * TODO: describe your function here
      * @param x hori. led
      * @param y vert. led
