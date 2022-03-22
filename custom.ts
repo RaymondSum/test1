@@ -26,7 +26,7 @@ namespace animations {
      * @param interval time in ms for blinks
      */
     //% block="blink with $x and $y and $interval"
-    export function blink(n: number, s: string, interval: MyEnum): void {
+    export function blink(x: number, y: number, interval: number): void {
         // Add code here
     }
 }
