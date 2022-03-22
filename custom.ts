@@ -27,6 +27,9 @@ namespace animations {
      */
     //% block="blink with $x and $y and $interval"
     export function blink(x: number, y: number, interval: number): void {
+        let sprite = game.createSprite(x,y)
+        sprite.setBlink(interval)
+        sprite.blink()
         // Add code here
     }
 }
