@@ -10,6 +10,9 @@ Blink at a local
 animations.blink(i,i,100+i*100)
 ```
 
+
+## Examples
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
