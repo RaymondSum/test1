@@ -1,6 +1,15 @@
 
 > Open this page at [https://raymondsum.github.io/test1/](https://raymondsum.github.io/test1/)
 
+
+##Blink #animationsblick
+
+Blink at a local
+
+```blocks
+animations.blink(i,i,100+i*100)
+```
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
